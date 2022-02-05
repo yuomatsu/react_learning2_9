@@ -1,10 +1,12 @@
 import "./styles.css";
+import { Practice1 } from "./practices/Practice1";
+import { Practice2 } from "./practices/Practice2";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Practice1 />
+      <Practice2 />
     </div>
   );
 }
